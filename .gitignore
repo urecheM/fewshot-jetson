@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# model weights and exported models
+*.onnx
+*.onnx.json
+*.pt
+*.pth
+*.engine
+models/
+
+# images
+data/support/*/*
+data/query/*/*
+!data/support/*/.gitkeep
+!data/query/*/.gitkeep
+
+# Benchmark outputs
+results/*
+!results/.gitkeep
+
+# scripts/enroll.py output files
+*.npz
+
+# noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

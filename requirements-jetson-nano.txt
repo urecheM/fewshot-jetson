@@ -1,0 +1,5 @@
+# Download the JetPack 4.6/Python 3.6 wheel from the Jetson Zoo (https://elinux.org/Jetson_Zoo#ONNX_Runtime) and pip3 install that file.
+numpy
+pillow
+psutil
+protobuf==3.19.6 # newest protobuf line that still supports Python 3.6
